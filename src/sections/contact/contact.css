@@ -1,0 +1,50 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin-top: 0 !important; 
+}
+
+.container__contact {
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact__form {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contactform {
+    display: flex;
+    justify-content: center; 
+  }
+
+.contact__socials {
+    margin: 2rem;
+    font-size: 4rem;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.contact__socials a {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+}
+
+.contact__socials a:hover {
+    background-color: white;
+    color: black;
+    transform: translateX(-0.5rem);
+}

@@ -1,0 +1,98 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 53%;
+    gap: 12%;
+}
+
+.about__portrait {
+    height: fit-content;
+    max-height: 40rem;
+    border: 1rem solid white;
+    transition: all 500ms ease;
+}
+
+.about__portrait:hover {
+    border-width: 0;
+}
+
+.about__cards {
+    margin: 2rem 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.card.about__card {
+    text-align: center;
+}
+
+.about__card-icon {
+    font-size: 1.3rem;
+    color: black;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    transition: all 500ms ease;
+}
+
+.about__card {
+    color: black;
+}
+
+.about__card:hover {
+    color: white;
+}
+
+.card.about__card:hover .about__card-icon {
+    background: white;
+    color: black;
+}
+
+.card.about__card h5 {
+    margin: 1rem 0;
+    color: black;
+}
+
+.card.about__card:hover h5 {
+    color: white;
+}
+
+.about__right p {
+    margin-bottom: 0.8rem;
+}
+
+.about__right .btn {
+    margin-top: 2.5rem;
+}
+
+
+/* Media Queries Ipads*/
+@media screen and (max-width:1024px) {
+    .about__left {
+        display: none;
+    }
+
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+
+    .about__right h2 {
+        text-align: center;
+    }
+}
+
+/* Media Queries Iphone*/
+@media screen and (max-width: 600px) {
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem;
+    }
+
+    .about__right .btn {
+        margin-top: 2rem;
+    }
+}

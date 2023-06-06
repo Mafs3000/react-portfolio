@@ -1,0 +1,33 @@
+.card {
+    background: white;
+    color: black;
+    padding: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 1.2rem;
+    transition: all 500ms ease;
+}
+
+.card:hover {
+    background: transparent;
+    border-color: white;
+    border-style: solid;
+    transform: translateY(-0.5rem);
+}
+
+.card.light {
+    background: whitesmoke;
+}
+
+.card.light:hover {
+    background: transparent;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+
+/* Media Quries Iphone */
+@media screen and (max-width: 600px) {
+    .card {
+        padding: 1.2rem;
+    }
+}

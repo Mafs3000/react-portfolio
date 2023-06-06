@@ -1,0 +1,36 @@
+.contactform__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid white;
+    padding: 3rem;
+    border-radius: 1.2rem;
+    transition: all 500ms ease;
+  }
+  
+  .contactform__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem; 
+  }
+  
+  .form-label {
+    padding: 0.5rem;
+  }
+  
+  .form-control {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  .btn.white{
+    float: right; 
+  }
+
+  .btn.white:hover{
+    float: right; 
+  }

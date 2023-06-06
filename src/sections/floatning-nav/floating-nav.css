@@ -1,0 +1,15 @@
+.floating-nav {
+    width: 100vw;
+    place-items: center;
+}
+
+.floating-nav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floating-nav__menu {
+    display: flex;
+    gap: 3.5rem;
+}
